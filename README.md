@@ -1,6 +1,6 @@
-# SwiftyGiphy
+# SwiftyGiphy for Swift 4.2
 
-SwiftyGiphy is a library to allow you to easily integrate Giphy image search into your app.
+SwiftyGiphy is a library to allow you to easily integrate Giphy image search into your app. This fork is compliant with Swift 4.2.
 
 ### The library consists of 2 primary components
 
