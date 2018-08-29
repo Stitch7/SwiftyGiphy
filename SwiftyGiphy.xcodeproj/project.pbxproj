@@ -105,7 +105,6 @@
 				C60B80371E71E45000ECF39E /* Frameworks */,
 				C60B80381E71E45000ECF39E /* Resources */,
 				CCBE918276636798D15B77FC /* [CP] Embed Pods Frameworks */,
-				C42C1016CF1E162D2AACBF98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,7 +127,7 @@
 				TargetAttributes = {
 					C60B80391E71E45000ECF39E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = P87N88ZC7B;
+						DevelopmentTeam = RRL5D96YV8;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -182,21 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C42C1016CF1E162D2AACBF98 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyGiphySample/Pods-SwiftyGiphySample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCBE918276636798D15B77FC /* [CP] Embed Pods Frameworks */ = {
@@ -356,14 +340,14 @@
 			baseConfigurationReference = 70EB9D07FA9D9945A12AF7A7 /* Pods-SwiftyGiphySample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P87N88ZC7B;
+				DEVELOPMENT_TEAM = RRL5D96YV8;
 				INFOPLIST_FILE = SwiftyGiphy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.52inc.SwiftyGiphySample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -372,14 +356,14 @@
 			baseConfigurationReference = DC4DC6F09817AC38267FD411 /* Pods-SwiftyGiphySample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P87N88ZC7B;
+				DEVELOPMENT_TEAM = RRL5D96YV8;
 				INFOPLIST_FILE = SwiftyGiphy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.52inc.SwiftyGiphySample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
