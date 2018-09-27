@@ -76,6 +76,13 @@ public class SwiftyGiphyViewController: UIViewController {
         }
     }
 
+    /// Access to search bar for styling (UIAppearance seems not to work properly with UISearchBar)
+    public var searchBar: UISearchBar {
+        get {
+            return searchController.searchBar
+        }
+    }
+
     /// The object to receive callbacks for when the user cancels or selects a gif. It is the delegate's responsibility to dismiss the SwiftyGiphyViewController.
     public weak var delegate: SwiftyGiphyViewControllerDelegate?
 
